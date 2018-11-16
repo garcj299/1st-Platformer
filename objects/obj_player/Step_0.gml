@@ -8,7 +8,15 @@ var move = key_right - key_left;
 
 hsp = move * walksp;
 
-//Player Collision
+//Gravity
+vsp = vsp+grv;
+
+if (place_meeting(x,y+1,obj_wall)) and (key_jump)
+{
+	vsp = -9;
+}
+
+//Horizontal Collision
 if (place_meeting(x+hsp,y,obj_wall))
 {
 	while (!place_meeting(x+sign(hsp),y,obj_wall))
@@ -18,3 +26,16 @@ if (place_meeting(x+hsp,y,obj_wall))
 	hsp = 0;
 }
 x = x + hsp;
+
+//Vertical Collision
+if (place_meeting(x,y+vsp,obj_wall))
+{
+	while (!place_meeting(x,y+sign(vsp),obj_wall))
+	{
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+} 
+y = y + vsp;
+
+
