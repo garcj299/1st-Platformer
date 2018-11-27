@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0e7f06e0-2439-4c93-b54b-c7d9aca64ae3",
+            "Value": {
+                "id": "c1e967de-5f66-4a8c-8959-60225d572665",
+                "resourcePath": "objects\\obj_gun\\obj_gun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "165db6d0-0619-4613-b915-d07034c122a3",
             "Value": {
                 "id": "06124d71-ad16-4cf9-8d2f-5c8720f8fe19",
@@ -84,6 +92,14 @@
                 "id": "47830f43-2830-4eaa-a311-56974986f6e5",
                 "resourcePath": "views\\5ebeb048-b487-47c5-8a82-8ac5877b5e49.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "64bc9797-08d7-42fd-8660-cfdf28e551d5",
+            "Value": {
+                "id": "219b0e47-73ba-4669-b28d-f689ab0fcc22",
+                "resourcePath": "sprites\\spr_gun\\spr_gun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
