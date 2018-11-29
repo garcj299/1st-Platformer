@@ -1,20 +1,5 @@
-//Get Player Input
-key_left = keyboard_check(ord("A")) or keyboard_check (vk_left);
-key_right = keyboard_check(ord("D")) or keyboard_check (vk_right);
-key_jump = keyboard_check_pressed(ord("W")) or keyboard_check (vk_space) or keyboard_check (vk_up);
-
-//Calculate Movement
-var move = key_right - key_left;
-
-hsp = move * walksp;
-
 //Gravity
 vsp = vsp+grv;
-
-if (place_meeting(x,y+1,obj_wall)) and (key_jump)
-{
-	vsp = -13;
-}
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_wall))
@@ -42,7 +27,7 @@ y = y + vsp;
 
 if (!place_meeting(x, y+1, obj_wall))
 {
-	sprite_index = spr_playerJump;
+	sprite_index = spr_enemyJump;
 	image_speed = 0;
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
 }
@@ -51,11 +36,11 @@ else
 	image_speed = 1;
 	if (hsp == 0)
 	{
-		sprite_index = spr_player;
+		sprite_index = spr_enemy;
 	}
 	else
 	{
-		sprite_index = spr_playerRun;
+		sprite_index = spr_enemyRun;
 		
 	}
 	
