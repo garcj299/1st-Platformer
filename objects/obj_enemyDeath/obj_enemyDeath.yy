@@ -1,41 +1,31 @@
 {
-    "id": "193108ca-a102-4473-866c-a175f594e7fd",
+    "id": "6c9cbfa1-bb46-46d9-8a1f-8e004a66ea79",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemy",
+    "name": "obj_enemyDeath",
     "eventList": [
         {
-            "id": "1828c102-625c-4fc5-b3ce-b63a83cf4550",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "193108ca-a102-4473-866c-a175f594e7fd"
-        },
-        {
-            "id": "ffa63d07-7c30-4365-9b7f-1156e34bd681",
+            "id": "a19ba123-7caf-4336-a603-4c3248868fd7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "193108ca-a102-4473-866c-a175f594e7fd"
+            "m_owner": "6c9cbfa1-bb46-46d9-8a1f-8e004a66ea79"
         },
         {
-            "id": "14252d3c-3882-4253-ab5d-8b16e3d96aa6",
+            "id": "1e42b9d2-c688-46c4-bc39-a2d3c7389c4c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "193108ca-a102-4473-866c-a175f594e7fd"
+            "eventtype": 0,
+            "m_owner": "6c9cbfa1-bb46-46d9-8a1f-8e004a66ea79"
         }
     ],
-    "maskSpriteId": "c9e5dad8-7752-4a92-98a6-ef68135fac71",
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c9e5dad8-7752-4a92-98a6-ef68135fac71",
+    "spriteId": "556d5e42-a72f-40fc-9ed0-13d00b87a63b",
     "visible": true
 }

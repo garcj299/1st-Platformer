@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "6c9cbfa1-bb46-46d9-8a1f-8e004a66ea79",
+            "Value": {
+                "id": "1b902e58-a537-4223-804e-b94c09a2bdb4",
+                "resourcePath": "objects\\obj_enemyDeath\\obj_enemyDeath.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7b234643-a06e-40c7-912d-27e2a641035b",
             "Value": {
                 "id": "ae16286c-e329-4bef-987e-8e7b680de71c",
