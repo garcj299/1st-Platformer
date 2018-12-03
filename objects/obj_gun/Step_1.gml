@@ -12,15 +12,16 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0)
 	recoil = 6;
 	with (instance_create_layer(x, y, "bullet_layer", obj_bullet))
 	{
-		
+//acuracy, bullet speed and amimig
 		speed = 35;
-		direction = other.image_angle + random_range(-3,3);
+		direction = other.image_angle + random_range(-2,2);
 		image_angle = direction;
 		//"other" means the property (in this case the image_angle) from the original object
 		// you are in, in this case obj_gun, so it is taking the gun's angle and  using it for the bullet's angle.
 	}
 
 }
+//recoil
 x = x - lengthdir_x(recoil, image_angle);
 y = y - lengthdir_y(recoil, image_angle);
 
