@@ -8,7 +8,7 @@ firingdelay = firingdelay - 1;
 recoil = max(0, recoil - 1);
 if (mouse_check_button(mb_left)) and (firingdelay < 0)
 {
-	firingdelay = 10;
+	firingdelay = 8;
 	recoil = 6;
 	with (instance_create_layer(x, y, "bullet_layer", obj_bullet))
 	{
