@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "09b301ad-546a-40aa-b217-b32bd7d3e020",
+            "Value": {
+                "id": "8977c971-e7b5-4ec2-af4c-702c1d30ea91",
+                "resourcePath": "rooms\\room_2\\room_2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0e7f06e0-2439-4c93-b54b-c7d9aca64ae3",
             "Value": {
                 "id": "c1e967de-5f66-4a8c-8959-60225d572665",
@@ -314,7 +322,7 @@
             "Key": "f70847d1-2a9c-4b3c-850f-5a5889b9d905",
             "Value": {
                 "id": "13d70922-63e3-42b7-9102-088ab98ecbd1",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\room_1\\room_1.yy",
                 "resourceType": "GMRoom"
             }
         },
