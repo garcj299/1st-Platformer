@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0a05d883-1c35-4b07-a315-2efdd1266f26",
+            "Value": {
+                "id": "19ba1677-0bfb-42b7-8e44-27d2a12dcc75",
+                "resourcePath": "objects\\obj_transitor\\obj_transitor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e7f06e0-2439-4c93-b54b-c7d9aca64ae3",
             "Value": {
                 "id": "c1e967de-5f66-4a8c-8959-60225d572665",
