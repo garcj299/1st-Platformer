@@ -1,1 +1,1 @@
-game_restart();
+scr_transition(TRANS_MODE.RESTART);
