@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "4b2bcf99-4106-4b6a-bfb1-95c90c94c166",
+            "Value": {
+                "id": "c5a6e1ce-2a44-4b2f-b7c8-5bb660d1dfaa",
+                "resourcePath": "sprites\\spr_trigger\\spr_trigger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "556d5e42-a72f-40fc-9ed0-13d00b87a63b",
             "Value": {
                 "id": "12ea7a97-5e0e-46e9-86a2-6f80ae32499c",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "76afaefd-f2a6-4256-96b5-b34cb4a8c2b9",
+            "Value": {
+                "id": "5b44b439-69a9-4443-b797-5a8ab200f0fd",
+                "resourcePath": "views\\f70847d1-2a9c-4b3c-850f-5a5889b9d905-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7b234643-a06e-40c7-912d-27e2a641035b",
             "Value": {
                 "id": "ae16286c-e329-4bef-987e-8e7b680de71c",
@@ -284,6 +300,14 @@
                 "id": "3b634802-8582-4827-a463-a83f67484dd3",
                 "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cb4f398c-494b-47f5-a4dc-1464c891a91a",
+            "Value": {
+                "id": "67798a63-d8a7-454b-ba7d-101788d936ad",
+                "resourcePath": "objects\\obj_levelend\\obj_levelend.yy",
+                "resourceType": "GMObject"
             }
         },
         {
