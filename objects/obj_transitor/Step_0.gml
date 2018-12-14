@@ -12,7 +12,7 @@ if (mode != TRANS_MODE.OFF)
 
 	if (percent ==1.1) or (percent ==0)
 	{
-		switch (mode)
+		switch (mode) 
 		{
 			case TRANS_MODE.INTRO:
 			{
