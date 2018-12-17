@@ -10,6 +10,7 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0)
 {
 	firingdelay = 8;
 	recoil = 6;
+	screen_shake(1.5,10);
 	with (instance_create_layer(x, y, "bullet_layer", obj_bullet))
 	{
 //acuracy, bullet speed and amimig
