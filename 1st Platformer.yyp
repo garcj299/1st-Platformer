@@ -34,7 +34,7 @@
             "Key": "08ac97ef-eb21-40da-ab3a-e549cd36dd97",
             "Value": {
                 "id": "1002ec2c-5d26-4c3f-a85d-4464b3f624ef",
-                "resourcePath": "sprites\\sprite12\\sprite12.yy",
+                "resourcePath": "sprites\\spr_mountains\\spr_mountains.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -60,6 +60,14 @@
                 "id": "c1e967de-5f66-4a8c-8959-60225d572665",
                 "resourcePath": "objects\\obj_gun\\obj_gun.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "139d7dc7-5513-408f-b168-b8eb40fe622b",
+            "Value": {
+                "id": "e14fba54-a77c-486a-bfe6-9697bbee93c9",
+                "resourcePath": "sprites\\spr_trees\\spr_trees.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
