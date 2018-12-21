@@ -20,22 +20,15 @@ shake_remain = max(0, shake_remain-((1/shake_length)*shake_magnitude));
 //update camera view
 camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 
+//"paralax" background
 
+if (layer_exists("mountains"))
+{
+	layer_x("mountains", x/2)
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if (layer_exists("trees"))
+{
+	layer_x("trees", x/4)
+}
 
