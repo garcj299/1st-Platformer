@@ -2,7 +2,7 @@
     "id": "b2ff3fdc-42cf-46a4-b372-e162cfd00098",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite14",
+    "name": "spr_scrolling_floor",
     "For3D": false,
     "HTile": false,
     "VTile": false,

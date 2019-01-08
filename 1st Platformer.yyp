@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "72ce8795-e39b-4b40-aeed-07ecc7cbc93b",
+            "Value": {
+                "id": "5cc3ada5-02a9-47c3-b15f-141f6fc9a1bf",
+                "resourcePath": "objects\\obj_menu\\obj_menu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "76afaefd-f2a6-4256-96b5-b34cb4a8c2b9",
             "Value": {
                 "id": "5b44b439-69a9-4443-b797-5a8ab200f0fd",
@@ -306,7 +314,7 @@
             "Key": "b2ff3fdc-42cf-46a4-b372-e162cfd00098",
             "Value": {
                 "id": "4491a774-bd90-425f-b6d8-985afc8dcb06",
-                "resourcePath": "sprites\\sprite14\\sprite14.yy",
+                "resourcePath": "sprites\\spr_scrolling_floor\\spr_scrolling_floor.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -388,6 +396,14 @@
                 "id": "be804298-0e91-4cb2-8a99-589aae7da3f7",
                 "resourcePath": "sprites\\spr_playerJump\\spr_playerJump.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e0bff00c-cc06-4597-88bb-e5a62797fc02",
+            "Value": {
+                "id": "641b71e2-340d-4b9d-abe8-5fea6ff551f6",
+                "resourcePath": "fonts\\fon_menu\\fon_menu.yy",
+                "resourceType": "GMFont"
             }
         },
         {
