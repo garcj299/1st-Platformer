@@ -135,6 +135,22 @@
             }
         },
         {
+            "Key": "313e569b-598f-4f86-9bac-11defc82fc78",
+            "Value": {
+                "id": "549e2308-f5cf-4246-a656-7341f91e6f4f",
+                "resourcePath": "sounds\\death_sound\\death_sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "3819bc6d-5bc7-4e9e-bc9c-01cf54a68ce1",
+            "Value": {
+                "id": "0078aaca-1278-44cb-ad30-209351b9f2a8",
+                "resourcePath": "sounds\\bullet_sound\\bullet_sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3db59b8e-6228-471f-a8a6-edb3d7203f1c",
             "Value": {
                 "id": "9f783dda-c90e-4e8a-9297-eaf460e50682",

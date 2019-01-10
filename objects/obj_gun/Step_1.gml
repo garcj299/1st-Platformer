@@ -8,6 +8,7 @@ firingdelay = firingdelay - 1;
 recoil = max(0, recoil - 1);
 if (mouse_check_button(mb_left)) and (firingdelay < 0)
 {
+	audio_play_sound(bullet_sound, 0, 0);
 	firingdelay = 8;
 	recoil = 6;
 	screen_shake(1.5,10);

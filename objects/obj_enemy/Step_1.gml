@@ -1,6 +1,7 @@
 //death animation
 if (hp <= 0)
 {
+	audio_play_sound(death_sound, 0, 0);
 	with (instance_create_layer(x,y,layer,obj_enemyDeath))
 	{
 		direction = other.hitfrom;
