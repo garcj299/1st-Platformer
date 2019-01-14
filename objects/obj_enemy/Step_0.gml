@@ -46,9 +46,8 @@ else
 	
 }
 
-if (hsp > 0) image_xscale = 2;
-
-if (hsp < 0) image_xscale = -2;
+if (hsp != 0) image_xscale = sign(hsp) * size;
+image_yscale = size;
 
 
 
