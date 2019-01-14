@@ -34,7 +34,22 @@ if (menu_x > gui_width+150) and (menu_commited != -1)
 {
 	switch (menu_commited)
 	{
-		case 2: default: scr_transition(TRANS_MODE.NEXT); break;
+		case 2: scr_transition(TRANS_MODE.NEXT); break;
+		case 1: 
+		{
+			if (!file_exists(SAVEFILE))
+			{
+					scr_transition(TRANS_MODE.NEXT);
+			}
+			else
+			{
+				var file = file_text_open_read(SAVEFILE);
+				var target = file_text_read_real(file);
+				file_text_close(file);
+				scr_transition(TRANS_MODE.GOTO,target);
+			}
+		}
+		break;
 		case 0: game_end(); break;
 	}
 }

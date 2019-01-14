@@ -1,3 +1,6 @@
+
+#macro SAVEFILE "Save.sav"
+
 gui_width = display_get_gui_width() - 30;
 gui_heigth = display_get_gui_height();
 gui_margin = 32;
