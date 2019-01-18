@@ -25,6 +25,7 @@ if(menu_control)
 		menu_commited = menu_cursor;
 		screen_shake(4, 30);
 		menu_control = false;
+		audio_play_sound(menu_sound, 0, 0);
 	}
 	
 }

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_enemyBig",
     "eventList": [
-        
+        {
+            "id": "d0523ac5-b694-46fc-8387-9baa105e5b0e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "bbab5e46-393f-48e1-ad0b-226e4840c4a5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

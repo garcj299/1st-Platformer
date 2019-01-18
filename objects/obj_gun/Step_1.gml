@@ -5,16 +5,20 @@ image_angle = point_direction(x, y, mouse_x, mouse_y);
 
 //firing
 firingdelay = firingdelay - 1;
+
 recoil = max(0, recoil - 1);
+
 if (mouse_check_button(mb_left)) and (firingdelay < 0)
 {
-	audio_play_sound(bullet_sound, 0, 0);
 	firingdelay = 8;
 	recoil = 6;
 	screen_shake(1.5,10);
+	audio_sound_pitch(bullet_sound,random_range(1.1,1));
+	audio_play_sound(bullet_sound, 5, false);
+	
 	with (instance_create_layer(x, y, "bullet_layer", obj_bullet))
 	{
-//acuracy, bullet speed and amimig
+		//acuracy, bullet speed and amimig
 		speed = 45;
 		direction = other.image_angle + random_range(-2,2);
 		image_angle = direction;

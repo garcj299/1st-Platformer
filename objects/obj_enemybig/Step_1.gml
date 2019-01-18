@@ -4,7 +4,7 @@ if (hp <= 0)
 	
 	with (instance_create_layer(x,y,layer,obj_enemyDeath))
 	{
-		audio_sound_pitch(death_sound,1);
+		audio_sound_pitch(death_sound,0.7);
 		audio_play_sound(death_sound, 10, false);
 		direction = other.hitfrom;
 		hsp = lengthdir_x(6,direction);

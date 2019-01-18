@@ -1,8 +1,8 @@
 {
-    "id": "3819bc6d-5bc7-4e9e-bc9c-01cf54a68ce1",
+    "id": "f189ca29-e8ce-4d9b-ba6a-d598259f61d0",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "bullet_sound",
+    "name": "snFoot2",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.69
+    "volume": 1
 }
