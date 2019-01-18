@@ -10,7 +10,7 @@ if (place_meeting(x+hsp,y,obj_wall))
 	}
 	hsp = -hsp;
 }
-x = x + hsp;
+x = x + hsp; //speed of enemy
 
 //Vertical Collision
 if (place_meeting(x,y+vsp,obj_wall))
