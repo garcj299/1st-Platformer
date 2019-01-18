@@ -135,14 +135,6 @@
             }
         },
         {
-            "Key": "2cecf98c-4d41-4751-8732-ca4c7cf09393",
-            "Value": {
-                "id": "6ebf243b-37ad-47c5-8122-f5d0a15171fe",
-                "resourcePath": "objects\\obj_enemybig\\obj_enemybig.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "313e569b-598f-4f86-9bac-11defc82fc78",
             "Value": {
                 "id": "549e2308-f5cf-4246-a656-7341f91e6f4f",
@@ -356,6 +348,14 @@
                 "id": "b883199d-a420-4eb1-8377-d2454dcec47f",
                 "resourcePath": "views\\b8af252f-98a4-4d13-ab91-0744cf48a4ee.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bbab5e46-393f-48e1-ad0b-226e4840c4a5",
+            "Value": {
+                "id": "21a7dc49-3d61-4f37-a381-e303c0420cf7",
+                "resourcePath": "objects\\obj_enemyBig\\obj_enemyBig.yy",
+                "resourceType": "GMObject"
             }
         },
         {

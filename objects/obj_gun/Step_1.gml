@@ -15,7 +15,7 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0)
 	with (instance_create_layer(x, y, "bullet_layer", obj_bullet))
 	{
 //acuracy, bullet speed and amimig
-		speed = 35;
+		speed = 45;
 		direction = other.image_angle + random_range(-2,2);
 		image_angle = direction;
 		//"other" means the property (in this case the image_angle) from the original object
