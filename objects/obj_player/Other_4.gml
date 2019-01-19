@@ -1,3 +1,4 @@
+/// @desc Auto Save
 //overwriting old saves
 if (file_exists(SAVEFILE)) file_delete(SAVEFILE);
 

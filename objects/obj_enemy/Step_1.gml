@@ -1,4 +1,4 @@
-//death animation
+/// @desc Death Animation
 if (hp <= 0)
 {
 	

@@ -3,6 +3,13 @@ if (instance_exists(follow))
 {
 	xto = follow.x;
 	yto = follow.y;
+	if ((follow).object_index == obj_playerDeath)
+	{
+		x = xto;
+		y = yto;
+		
+	}
+	
 }
 
 //update object position

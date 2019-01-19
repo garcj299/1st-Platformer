@@ -1,3 +1,4 @@
+///@desc Hit Flash
 draw_self();
 if (flash > 0)
 {
