@@ -8,5 +8,5 @@ draw_sprite(spr_marker,0,x,y);
 draw_set_alpha(1);
 
 //Draw Text
-
-
+DrawSetText(c_white, f_sign, fa_center, fa_top);
+draw_text(x,y-h-border,text_current);

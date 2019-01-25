@@ -169,7 +169,8 @@
         "c99a13f2-c1aa-4f4b-9c18-4e07b67031b1",
         "7f04ab71-d537-49ff-9c7d-e5da513e09aa",
         "5ad3b12a-f026-45a6-8339-6b886b779179",
-        "462a2d9c-6ba3-4acc-9d84-8e41a817bfba"
+        "462a2d9c-6ba3-4acc-9d84-8e41a817bfba",
+        "9abb8649-8793-41e1-8820-c10fac16c7b4"
     ],
     "IsDnD": false,
     "layers": [
@@ -239,6 +240,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
+{"name": "inst_CDE4C20","id": "9abb8649-8793-41e1-8820-c10fac16c7b4","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_CDE4C20","objId": "6284f816-1241-45c1-9068-54f9670d215c","properties": [{"id": "5aa2ab73-0de3-4b7c-bf93-942aa648115f","modelName": "GMOverriddenProperty","objectId": "6284f816-1241-45c1-9068-54f9670d215c","propertyId": "ba666a71-a588-450e-a1e3-4642e457a8c0","mvc": "1.0","value": "\"Please don't murder anyone.  \\n  -The park ranger.\""}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 537,"y": 820},
 {"name": "inst_627A7A42","id": "4434c172-7dc5-4cfe-9c27-45db4f422e88","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_627A7A42","objId": "a83ef21d-7ee1-4f23-8d82-697b5acb0ffd","properties": null,"rotation": 0,"scaleX": 2,"scaleY": 2,"mvc": "1.0","x": 163,"y": 754},
 {"name": "inst_1A88AC9F","id": "07e8318c-455f-4f7e-9366-72bb11d15e23","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1A88AC9F","objId": "3ebbcfd8-68fa-4bab-b362-6adfa769031e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 576,"y": 416},
 {"name": "inst_492C6B27","id": "6db1aede-1585-4a02-872d-b77f6cae7444","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_492C6B27","objId": "0a05d883-1c35-4b07-a315-2efdd1266f26","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 640,"y": 384},

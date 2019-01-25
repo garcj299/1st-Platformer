@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "52d5cd34-95b0-4c6e-8791-ad969302c0e4",
+            "Value": {
+                "id": "53dc543a-1c06-4715-ac7c-50ffec7f24e6",
+                "resourcePath": "scripts\\DrawSetText\\DrawSetText.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "556d5e42-a72f-40fc-9ed0-13d00b87a63b",
             "Value": {
                 "id": "12ea7a97-5e0e-46e9-86a2-6f80ae32499c",
@@ -252,6 +260,14 @@
                 "id": "fddfd3dd-9c3c-4ac0-b458-93f98c954245",
                 "resourcePath": "sounds\\menu_sound\\menu_sound.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6284f816-1241-45c1-9068-54f9670d215c",
+            "Value": {
+                "id": "60ec568c-70a9-4f94-81e1-ffdc6f494008",
+                "resourcePath": "objects\\obj_signPost\\obj_signPost.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -577,7 +593,8 @@
     ],
     "script_order": [
         "44dec794-1f5b-4d7c-a0fe-be905a1f72cd",
-        "42dbde3d-3c2d-4ec3-b2e1-7299a40fe6ab"
+        "42dbde3d-3c2d-4ec3-b2e1-7299a40fe6ab",
+        "52d5cd34-95b0-4c6e-8791-ad969302c0e4"
     ],
     "tutorial": ""
 }
