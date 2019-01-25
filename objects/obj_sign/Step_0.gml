@@ -7,10 +7,13 @@ draw_set_font(f_sign);
 if (h == 0) h = string_height(text);
 w = string_width(text_current);
 
-//destroy when done
-if (letters >= length)
+//Destroy When Done
+if (letters >= length) and (keyboard_check_pressed(vk_anykey))
 {
-instance_destroy();
+	instance_destroy();
+	with (obj_camera) follow = obj_player;
+	
+	
 }
 
 
