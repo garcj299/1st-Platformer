@@ -18,11 +18,14 @@ var move = key_right - key_left;
 hsp = move * walksp;
 
 //Gravity
+canjump -= 1;
 vsp = vsp+grv;
 
-if (place_meeting(x,y+1,obj_wall)) and (key_jump)
+//Jumping
+if (canjump > 0) and (key_jump)
 {
 	vsp = -13;
+	canjump = 0;
 }
 
 //Horizontal Collision
@@ -57,6 +60,7 @@ if (!place_meeting(x, y+1, obj_wall))
 }
 else
 {
+	canjump = 10;
 	if (sprite_index == spr_playerJump) 
 	{
 		audio_sound_pitch(landing_sound,choose(0.5,1.5));
