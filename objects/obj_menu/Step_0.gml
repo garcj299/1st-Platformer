@@ -1,5 +1,4 @@
 
-
 menu_x += (menu_x_target - menu_x) / menu_speed;
 
 //controlling the menu
@@ -54,25 +53,3 @@ if (menu_x > gui_width+150) and (menu_commited != -1)
 		case 0: game_end(); break;
 	}
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-
-
-
-
-
-
-
