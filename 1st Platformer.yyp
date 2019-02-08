@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "864e0325-f021-4750-adfe-25e5beab97f5",
+            "Value": {
+                "id": "389af84b-2a5e-44a9-a909-171c788b22e9",
+                "resourcePath": "sounds\\player_death\\player_death.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "89dd8f4b-ff14-4e8e-a899-7bdc639a4ddb",
             "Value": {
                 "id": "2c6cb6a1-b7c2-4a7f-bae8-37a7c242170c",
