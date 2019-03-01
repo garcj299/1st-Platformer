@@ -1,3 +1,4 @@
+
 //Get Player Input
 if (hascontrol)
 {
@@ -24,7 +25,7 @@ vsp = vsp+grv;
 //Jumping
 if (canjump > 0) and (key_jump)
 {
-	vsp = -13;
+	vsp = -20;
 	canjump = 0;
 }
 

@@ -3,7 +3,7 @@
 
 hsp = 0;
 vsp = 0;
-grv = 0.3;
+grv = .7;
 walksp = 4;
 hascontrol = true;
 canjump = 0;

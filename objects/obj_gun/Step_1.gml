@@ -11,7 +11,7 @@ recoil = max(0, recoil - 1);
 if (mouse_check_button(mb_left)) and (firingdelay < 0)
 {
 	firingdelay = 8;
-	recoil = 6;
+	recoil = 2;
 	screen_shake(1.5,10);
 	audio_sound_pitch(bullet_sound,random_range(1.1,1));
 	audio_play_sound(bullet_sound, 5, false);
@@ -24,8 +24,13 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0)
 		image_angle = direction;
 		//"other" means the property (in this case the image_angle) from the original object
 		// you are in, in this case obj_gun, so it is taking the gun's angle and  using it for the bullet's angle.
+		with (obj_player) 
+		{
+			vsp = vsp - 7;//actually move with the gun
+			if (vsp < -20) vsp = vsp + 2; //don't speed up too much
+			if (vsp >= 0) vsp = -4;//stop when you start
+		}
 	}
-
 }
 //recoil
 x = x - lengthdir_x(recoil, image_angle);
