@@ -26,9 +26,11 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0)
 		// you are in, in this case obj_gun, so it is taking the gun's angle and  using it for the bullet's angle.
 		with (obj_player) 
 		{
-			vsp = vsp - 7;//actually move with the gun
-			if (vsp < -20) vsp = vsp + 2; //don't speed up too much
+			//gun flying
 			if (vsp >= 0) vsp = -4;//stop when you start
+			hsp = hsp - lengthdir_x(obj_bullet.speed/5, obj_bullet.image_angle);
+			vsp = vsp - lengthdir_y(obj_bullet.speed/5, obj_bullet.image_angle);
+			//vsp = vsp - 7;//actually move with the gun
 		}
 	}
 }
