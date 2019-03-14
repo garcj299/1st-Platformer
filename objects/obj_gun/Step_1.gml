@@ -15,7 +15,8 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0)
 	screen_shake(1.5,10);
 	audio_sound_pitch(bullet_sound,random_range(1.1,1));
 	audio_play_sound(bullet_sound, 5, false);
-	
+ 
+ 
 	with (instance_create_layer(x, y, "bullet_layer", obj_bullet))
 	{
 		//acuracy, bullet speed and amimig
@@ -27,15 +28,18 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0)
 		with (obj_player) 
 		{
 			//gun flying
-			if (vsp >= 0) vsp = -4;//stop when you start
-			if (image_angle = 
+			x = x - lengthdir_x(recoil, image_angle);
+			y = y - lengthdir_y(recoil, image_angle);
+			//vsp = lengthdir_y(6, gun_flying);
+			
 			//vsp = vsp - 7;//actually move with the gun
 		}
 	}
 }
 //recoil
-x = x - lengthdir_x(recoil, image_angle);
-y = y - lengthdir_y(recoil, image_angle);
+
+	x = x - lengthdir_x(recoil, image_angle);
+	y = y - lengthdir_y(recoil, image_angle);
 
 if (image_angle > 90) and (image_angle < 270)
 {
@@ -45,6 +49,34 @@ else
 {
 	image_yscale = 2;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
