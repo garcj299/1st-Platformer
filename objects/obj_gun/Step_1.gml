@@ -28,8 +28,8 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0)
 		with (obj_player) 
 		{
 			//gun flying
-			x = x - lengthdir_x(recoil, image_angle);
-			y = y - lengthdir_y(recoil, image_angle);
+			hsp = hsp - lengthdir_x(obj_bullet.speed, obj_gun.image_angle);
+			vsp = vsp - lengthdir_y(obj_bullet.speed, obj_gun.image_angle);
 			//vsp = lengthdir_y(6, gun_flying);
 			
 			//vsp = vsp - 7;//actually move with the gun
