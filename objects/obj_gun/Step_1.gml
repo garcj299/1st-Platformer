@@ -11,7 +11,7 @@ recoil = max(0, recoil - 1);
 if (mouse_check_button(mb_left)) and (firingdelay < 0)
 {
 	firingdelay = 20;
-	recoil = 2;
+	recoil = 10;
 	screen_shake(1.5,10);
 	audio_sound_pitch(bullet_sound,random_range(1.1,1));
 	audio_play_sound(bullet_sound, 5, false);
@@ -28,9 +28,8 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0)
 		with (obj_player) 
 		{
 			//gun flying
-			hsp = hsp - lengthdir_x(obj_bullet.speed, obj_gun.image_angle);
-			vsp = vsp - lengthdir_y(obj_bullet.speed, obj_gun.image_angle);
-			//vsp = lengthdir_y(6, gun_flying);
+			hsp = hsp - lengthdir_x(obj_bullet.speed, -obj_gun.image_angle);
+			vsp = vsp - lengthdir_y(obj_bullet.speed/2, obj_gun.image_angle);
 			
 			//vsp = vsp - 7;//actually move with the gun
 		}
