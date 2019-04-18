@@ -1,4 +1,4 @@
- x = obj_player.x+6;
+x = obj_player.x+6;
 y = obj_player.y+9;
 
 image_angle = point_direction(x, y, mouse_x, mouse_y);
@@ -10,7 +10,7 @@ recoil = max(0, recoil - 1);
 
 if (mouse_check_button(mb_left)) and (firingdelay < 0)
 {
-	firingdelay = 20;
+	firingdelay = 5;
 	recoil = 10;
 	screen_shake(1.5,10);
 	audio_sound_pitch(bullet_sound,random_range(1.1,1));
@@ -27,9 +27,10 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0)
 		// you are in, in this case obj_gun, so it is taking the gun's angle and  using it for the bullet's angle.
 		with (obj_player) 
 		{
+			if (vsp > 20) vsp = vsp/4; //don't speed up too much...
 			//gun flying
-			hsp = hsp - lengthdir_x(obj_bullet.speed/3, obj_gun.image_angle);
-			vsp = vsp - lengthdir_y(obj_bullet.speed/2, obj_gun.image_angle);
+			x -= lengthdir_x(obj_bullet.speed/3, obj_gun.image_angle);
+			vsp = vsp - lengthdir_y(obj_bullet.speed/5, obj_gun.image_angle);
 			//vsp = vsp - 7;//actually move with the gun
 		}
 	}
@@ -47,36 +48,3 @@ else
 {
 	image_yscale = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
