@@ -14,10 +14,13 @@ else
 }
 
 //Calculate Movement
-var move = key_right - key_left;
 
-hsp = move * walksp;
-
+//if (place_meeting(x+hsp,y,obj_wall))
+{
+	//var move = key_right - key_left;
+	
+//	hsp = move * walksp;
+}
 //Gravity
 canjump -= 1;
 vsp = vsp+grv;
