@@ -21,18 +21,28 @@ if (place_meeting(x,y,obj_wall))
 	
 	hsp = move * walksp;
 }
-
+//stop moving when touching the ground
 if (hsp != 0)
 {
-	if (hsp > 1)
+	//right stop
+	if (hsp > 0)
 	{
 		hsp -= 1;
 	}
-	
-	if (hsp < -1)
+	if (hsp > 0) and (hsp < 1)
+	{
+		hsp = 0;
+	}
+	//left stop
+	if (hsp < 0)
 	{
 		hsp += 1;
 	}
+	if (hsp < 0) and (hsp > -1)
+	{
+		hsp = 0;
+	}
+	
 }
 
 //Gravity
