@@ -28,16 +28,16 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0)
 		with (obj_player) 
 		{
 			if (vsp > 20) vsp = vsp/4; //don't speed up too much...
-			//gun flying
-			if (!place_meeting(x,y,obj_wall))
-			{
-				hsp = hsp - lengthdir_x(obj_bullet.speed/5, obj_gun.image_angle);
-				vsp = vsp - lengthdir_y(obj_bullet.speed/5, obj_gun.image_angle);
-			}
+//gun flying
+			
+			hsp = hsp - lengthdir_x(obj_bullet.speed/5, obj_gun.image_angle);
+			vsp = vsp - lengthdir_y(obj_bullet.speed/5, obj_gun.image_angle);
 			//vsp = vsp - 7;//actually move with the gun
+			
 		}
 	}
 }
+
 //recoil
 
 	x = x - lengthdir_x(recoil, image_angle);
@@ -52,7 +52,7 @@ else
 	image_yscale = 2;
 }
 
-
+//stop
 
 
 

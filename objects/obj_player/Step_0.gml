@@ -15,12 +15,26 @@ else
 
 //Calculate Movement
 
-//if (place_meeting(x+hsp,y,obj_wall))
+if (place_meeting(x,y,obj_wall))
 {
-	//var move = key_right - key_left;
+	 move = key_right - key_left;
 	
-//	hsp = move * walksp;
+	hsp = move * walksp;
 }
+
+if (hsp != 0)
+{
+	if (hsp > 1)
+	{
+		hsp -= 1;
+	}
+	
+	if (hsp < -1)
+	{
+		hsp += 1;
+	}
+}
+
 //Gravity
 canjump -= 1;
 vsp = vsp+grv;
@@ -39,8 +53,11 @@ if (place_meeting(x+hsp,y,obj_wall))
 	{
 		x = x+sign(hsp);
 	}
+	
 	hsp = 0;
+	
 }
+
 x = x + hsp;
 
 //Vertical Collision
