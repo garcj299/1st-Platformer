@@ -7,3 +7,4 @@ grv = .7;
 walksp = 4;
 hascontrol = true;
 canjump = 0;
+wall_colision = true;

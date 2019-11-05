@@ -23,7 +23,12 @@ if (place_meeting(x,y,obj_wall))
 }
 
 //stop moving when touching the ground
-if (hsp != 0)
+if (place_meeting(obj_player.x, obj_player.y, obj_wall))
+{
+	wall_colision = true;
+}
+
+if (hsp != 0) and (wall_colision = true) 
 {
 	//right stop
 	if (hsp > 0)
