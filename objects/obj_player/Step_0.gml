@@ -21,6 +21,7 @@ if (place_meeting(x,y,obj_wall))
 	
 	hsp = move * walksp;
 }
+
 //stop moving when touching the ground
 if (hsp != 0)
 {
